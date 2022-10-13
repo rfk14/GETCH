@@ -1,0 +1,28 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){ 
+char name, y, n;
+int q1, q2, q3, q4;
+
+cout<<"You wanna play a game\n";
+getch();
+cout<<"\n";
+cout<<"Enter your name\n";
+cin>>name;
+
+cout<<"answer in y or n\n\n";
+
+cout<<"is cs a cool subject\n\n";
+q1=getch();
+
+cout<<"is science a cool subject\n\n";
+q2=getch();
+
+cout<<"is movie a cool subject\n\n";
+q3=getch();
+
+cout<<"is cartoon a cool subject\n\n";
+q4=getch();
+cout<<q1, q2, q3, q4;
+}
